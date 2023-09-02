@@ -18,34 +18,29 @@ Code written by:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Responsive HTML Table With Pure CSS - Web Design/UI Design</title>
+    <title>Asia Cup 2023 Point Table</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main class="table">
-        <section class="table__header">
-            <h1>Group <strong>A</strong></h1>
-        </section>
-        <section class="table__body">
+        <section class="table__body group-A">
             <table>
                 <thead>
                     <tr>
-                        <th> SL <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Team <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Match <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Won <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Lost <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Tied <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> NR <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> Pts <span class="icon-arrow">&UpArrow;</span></th>
-                        <th> NRR <span class="icon-arrow">&UpArrow;</span></th>
+                        <th colspan="2"> Group A</th>
+                        <th> Match </th>
+                        <th> Won </th>
+                        <th> Lost </th>
+                        <th> Tied </th>
+                        <th> NR </th>
+                        <th> Pts </th>
+                        <th> NRR </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td> 1 </td>
-                        <td> <img src="images/Pakistan.jpg" alt=""> Pakistan </td>
+                        <td class="sticky" colspan="2"> <img src="images/Pakistan.jpg" alt=""> Pakistan </td>
                         <td> 1 </td>
                         <td> 1 </td>
                         <td> 0 </td>
@@ -55,8 +50,7 @@ Code written by:
                         <td> <strong> +4.760 </strong></td>
                     </tr>
                     <tr>
-                        <td> 2 </td>
-                        <td><img src="images/India.jpg" alt=""> India </td>
+                        <td class="sticky-2" colspan="2"><img src="images/India.jpg" alt=""> India </td>
                         <td> 0 </td>
                         <td> 0 </td>
                         <td> 0 </td>
@@ -66,8 +60,7 @@ Code written by:
                         <td> <strong> 0.000 </strong> </td>
                     </tr>
                     <tr>
-                        <td> 3</td>
-                        <td><img src="images/Nepal.jpg" alt=""> Nepal </td>
+                        <td class="sticky" colspan="2"><img src="images/Nepal.jpg" alt=""> Nepal </td>
                         <td> 1 </td>
                         <td> 0 </td>
                         <td> 1 </td>
@@ -75,6 +68,54 @@ Code written by:
                         <td> 0 </td>
                         <td> <strong> 0 </strong> </td>
                         <td> <strong> -4.760 </strong> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="table__body group-B">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2"> Group B</th>
+                        <th> Match </th>
+                        <th> Won </th>
+                        <th> Lost </th>
+                        <th> Tied </th>
+                        <th> NR </th>
+                        <th> Pts </th>
+                        <th> NRR </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="sticky" colspan="2"> <img src="images/Sri lanka.jpg" alt=""> Srilanka </td>
+                        <td> 1 </td>
+                        <td> 1 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> <strong> 2 </strong></td>
+                        <td> <strong> +0.951 </strong></td>
+                    </tr>
+                    <tr>
+                        <td class="sticky-2" colspan="2"><img src="images/Afghanistan.png" alt=""> Afghanistan </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> <strong> 0 </strong> </td>
+                        <td> <strong> 0.000 </strong> </td>
+                    </tr>
+                    <tr>
+                        <td class="sticky" colspan="2"><img src="images/Bangladesh.png" alt=""> Bangladesh </td>
+                        <td> 1 </td>
+                        <td> 0 </td>
+                        <td> 1 </td>
+                        <td> 0 </td>
+                        <td> 0 </td>
+                        <td> <strong> 0 </strong> </td>
+                        <td> <strong> -0.951 </strong> </td>
                     </tr>
                 </tbody>
             </table>
